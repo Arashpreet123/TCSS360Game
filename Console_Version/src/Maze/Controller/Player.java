@@ -9,7 +9,7 @@ class Player {
     Point currentPosition;
 
     public Player() {
-        health = 10;
+        health = 3;
         currentPosition = new Point(1, 1);
     }
     public void move(int theDirection) {
